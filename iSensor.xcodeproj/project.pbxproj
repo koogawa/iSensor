@@ -21,6 +21,7 @@
 		212CED9A18377FB700A37755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 212CED9818377FB700A37755 /* InfoPlist.strings */; };
 		212CED9C18377FB700A37755 /* iSensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CED9B18377FB700A37755 /* iSensorTests.m */; };
 		212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA61837C8BC00A37755 /* ProximityViewController.m */; };
+		212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA918384DDD00A37755 /* BrightnessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		212CED9B18377FB700A37755 /* iSensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSensorTests.m; sourceTree = "<group>"; };
 		212CEDA51837C8BC00A37755 /* ProximityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximityViewController.h; sourceTree = "<group>"; };
 		212CEDA61837C8BC00A37755 /* ProximityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximityViewController.m; sourceTree = "<group>"; };
+		212CEDA818384DDD00A37755 /* BrightnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessViewController.h; sourceTree = "<group>"; };
+		212CEDA918384DDD00A37755 /* BrightnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				212CED8218377FB700A37755 /* Main.storyboard */,
 				212CEDA51837C8BC00A37755 /* ProximityViewController.h */,
 				212CEDA61837C8BC00A37755 /* ProximityViewController.m */,
+				212CEDA818384DDD00A37755 /* BrightnessViewController.h */,
+				212CEDA918384DDD00A37755 /* BrightnessViewController.m */,
 				212CED8818377FB700A37755 /* Images.xcassets */,
 				212CED7718377FB700A37755 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */,
+				212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */,
 				212CED8118377FB700A37755 /* AppDelegate.m in Sources */,
 				212CED7D18377FB700A37755 /* main.m in Sources */,
 			);
