@@ -22,6 +22,7 @@
 		212CED9C18377FB700A37755 /* iSensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CED9B18377FB700A37755 /* iSensorTests.m */; };
 		212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA61837C8BC00A37755 /* ProximityViewController.m */; };
 		212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA918384DDD00A37755 /* BrightnessViewController.m */; };
+		212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDAC1838B2B200A37755 /* ShakeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		212CEDA61837C8BC00A37755 /* ProximityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximityViewController.m; sourceTree = "<group>"; };
 		212CEDA818384DDD00A37755 /* BrightnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessViewController.h; sourceTree = "<group>"; };
 		212CEDA918384DDD00A37755 /* BrightnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessViewController.m; sourceTree = "<group>"; };
+		212CEDAB1838B2B200A37755 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
+		212CEDAC1838B2B200A37755 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				212CEDA61837C8BC00A37755 /* ProximityViewController.m */,
 				212CEDA818384DDD00A37755 /* BrightnessViewController.h */,
 				212CEDA918384DDD00A37755 /* BrightnessViewController.m */,
+				212CEDAB1838B2B200A37755 /* ShakeViewController.h */,
+				212CEDAC1838B2B200A37755 /* ShakeViewController.m */,
 				212CED8818377FB700A37755 /* Images.xcassets */,
 				212CED7718377FB700A37755 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */,
 				212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */,
 				212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */,
 				212CED8118377FB700A37755 /* AppDelegate.m in Sources */,

@@ -31,6 +31,25 @@
             </objects>
             <point key="canvasLocation" x="1357" y="-112"/>
         </scene>
+        <!--Shake View Controller - Shake Gesture-->
+        <scene sceneID="UJi-9O-yWz">
+            <objects>
+                <viewController id="fYK-56-cNE" customClass="ShakeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="adL-Ha-Are"/>
+                        <viewControllerLayoutGuide type="bottom" id="C6Q-Wg-xeY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ant-MA-DIc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Shake Gesture" id="2wb-oC-lAt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iyg-EC-5Ph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="613"/>
+        </scene>
         <!--Brightness View Controller - Screen Brightness-->
         <scene sceneID="Fgj-br-2af">
             <objects>
@@ -138,6 +157,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="teS-0r-kRr" kind="push" id="bvE-bh-FFr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="sdQ-Rm-Jxr" style="IBUITableViewCellStyleDefault" id="0UY-ea-dcB">
+                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0UY-ea-dcB" id="opN-Sh-Wpz">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Shake Gesture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sdQ-Rm-Jxr">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fYK-56-cNE" kind="push" id="wN4-aN-SXS"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
