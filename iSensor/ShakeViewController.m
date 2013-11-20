@@ -44,7 +44,8 @@
 {
     if (event.type == UIEventTypeMotion && event.subtype == UIEventSubtypeMotionShake)
     {
-        NSLog(@"Motion began");
+        NSString *text = self.textView.text;
+        self.textView.text = [text stringByAppendingString:@"\nMotion began"];
     }
 }
 
@@ -52,7 +53,8 @@
 {
     if (event.type == UIEventTypeMotion && event.subtype == UIEventSubtypeMotionShake)
     {
-        NSLog(@"Motion cancelled");
+        NSString *text = self.textView.text;
+        self.textView.text = [text stringByAppendingString:@"\nMotion cancelled"];
     }
 }
 
@@ -60,7 +62,8 @@
 {
     if (event.type == UIEventTypeMotion && event.subtype == UIEventSubtypeMotionShake)
     {
-        NSLog(@"Motion ended");
+        NSString *text = self.textView.text;
+        self.textView.text = [text stringByAppendingString:@"\nMotion ended"];
     }
 }
 
