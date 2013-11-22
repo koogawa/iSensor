@@ -25,6 +25,7 @@
 		212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDAC1838B2B200A37755 /* ShakeViewController.m */; };
 		21A84528183F075D000EAE80 /* HeadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A84527183F075D000EAE80 /* HeadingViewController.m */; };
 		21A8452A183F1906000EAE80 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A84529183F1906000EAE80 /* CoreLocation.framework */; };
+		21A8452D183F5DC0000EAE80 /* AltitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		21A84526183F075D000EAE80 /* HeadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadingViewController.h; sourceTree = "<group>"; };
 		21A84527183F075D000EAE80 /* HeadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadingViewController.m; sourceTree = "<group>"; };
 		21A84529183F1906000EAE80 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21A8452B183F5DC0000EAE80 /* AltitudeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltitudeViewController.h; sourceTree = "<group>"; };
+		21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltitudeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				212CEDAC1838B2B200A37755 /* ShakeViewController.m */,
 				21A84526183F075D000EAE80 /* HeadingViewController.h */,
 				21A84527183F075D000EAE80 /* HeadingViewController.m */,
+				21A8452B183F5DC0000EAE80 /* AltitudeViewController.h */,
+				21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */,
 				212CED8818377FB700A37755 /* Images.xcassets */,
 				212CED7718377FB700A37755 /* Supporting Files */,
 			);
@@ -273,6 +278,7 @@
 				212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */,
 				212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */,
 				212CED8118377FB700A37755 /* AppDelegate.m in Sources */,
+				21A8452D183F5DC0000EAE80 /* AltitudeViewController.m in Sources */,
 				212CED7D18377FB700A37755 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
