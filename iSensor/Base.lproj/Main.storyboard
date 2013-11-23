@@ -4,6 +4,25 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
+        <!--Location View Controller - Location-->
+        <scene sceneID="Ktn-fS-pnX">
+            <objects>
+                <viewController id="vJz-1N-Mce" customClass="LocationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2c3-uJ-HEE"/>
+                        <viewControllerLayoutGuide type="bottom" id="n0G-Q1-peC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="liZ-ls-QhK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Location" id="7ZY-qL-cXP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s30-8n-Ryh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="-772"/>
+        </scene>
         <!--Altitude View Controller - Altitude-->
         <scene sceneID="luh-ia-UaR">
             <objects>
@@ -302,6 +321,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="ghV-n6-ihP" kind="push" id="9WS-4Q-RDV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="ryV-GD-H35" style="IBUITableViewCellStyleDefault" id="FoM-Uh-bYp">
+                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FoM-Uh-bYp" id="lnl-EY-fKg">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ryV-GD-H35">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vJz-1N-Mce" kind="push" id="ufw-5c-11f"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
