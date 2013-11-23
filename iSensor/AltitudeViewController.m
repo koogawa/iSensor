@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
 
-    if ([CLLocationManager headingAvailable])
+    if ([CLLocationManager locationServicesEnabled])
     {
         // インスタンスを生成
         _locationManager = [[CLLocationManager alloc] init];
@@ -35,24 +35,17 @@
         // デリゲートを設定
         _locationManager.delegate = self;
 
-        // 何度動いたら更新するか（デフォルトは1度）
-        _locationManager.headingFilter = kCLHeadingFilterNone;
-
-        // デバイスの度の向きを北とするか（デフォルトは画面上部）
-        _locationManager.headingOrientation = CLDeviceOrientationPortrait;
-
-        // ヘディングイベントの開始
+        // 位置情報の取得開始
         [_locationManager startUpdatingLocation];
     }
-
 }
-// 止める処理
+
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
 
-    // ヘディングイベントの停止
-    if ([CLLocationManager headingAvailable]) {
+    // 位置情報の取得停止
+    if ([CLLocationManager locationServicesEnabled]) {
         [_locationManager stopUpdatingLocation];
     }
 }
@@ -63,12 +56,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+// 位置情報が更新されるたびに呼ばれる
 - (void)locationManager:(CLLocationManager *)manager
     didUpdateToLocation:(CLLocation *)newLocation
            fromLocation:(CLLocation *)oldLocation
 {
-    NSLog(@"newLocation %f", newLocation.altitude);
-    self.textField.text = [NSString stringWithFormat:@"%f", newLocation.altitude];
+    self.textField.text = [NSString stringWithFormat:@"%.2f m", newLocation.altitude];
 }
 
 @end
