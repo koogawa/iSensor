@@ -27,6 +27,7 @@
 		21A8452A183F1906000EAE80 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A84529183F1906000EAE80 /* CoreLocation.framework */; };
 		21A8452D183F5DC0000EAE80 /* AltitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */; };
 		21A8453318407916000EAE80 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8453218407916000EAE80 /* LocationViewController.m */; };
+		21A845361840BC66000EAE80 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A845351840BC66000EAE80 /* AudioViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltitudeViewController.m; sourceTree = "<group>"; };
 		21A8453118407916000EAE80 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		21A8453218407916000EAE80 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		21A845341840BC66000EAE80 /* AudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
+		21A845351840BC66000EAE80 /* AudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,21 +134,10 @@
 		212CED7618377FB700A37755 /* iSensor */ = {
 			isa = PBXGroup;
 			children = (
+				21A845371840BC7E000EAE80 /* Controller */,
 				212CED7F18377FB700A37755 /* AppDelegate.h */,
 				212CED8018377FB700A37755 /* AppDelegate.m */,
 				212CED8218377FB700A37755 /* Main.storyboard */,
-				212CEDA51837C8BC00A37755 /* ProximityViewController.h */,
-				212CEDA61837C8BC00A37755 /* ProximityViewController.m */,
-				212CEDA818384DDD00A37755 /* BrightnessViewController.h */,
-				212CEDA918384DDD00A37755 /* BrightnessViewController.m */,
-				212CEDAB1838B2B200A37755 /* ShakeViewController.h */,
-				212CEDAC1838B2B200A37755 /* ShakeViewController.m */,
-				21A8453118407916000EAE80 /* LocationViewController.h */,
-				21A8453218407916000EAE80 /* LocationViewController.m */,
-				21A8452B183F5DC0000EAE80 /* AltitudeViewController.h */,
-				21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */,
-				21A84526183F075D000EAE80 /* HeadingViewController.h */,
-				21A84527183F075D000EAE80 /* HeadingViewController.m */,
 				212CED8818377FB700A37755 /* Images.xcassets */,
 				212CED7718377FB700A37755 /* Supporting Files */,
 			);
@@ -179,6 +171,27 @@
 				212CED9818377FB700A37755 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21A845371840BC7E000EAE80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				212CEDA51837C8BC00A37755 /* ProximityViewController.h */,
+				212CEDA61837C8BC00A37755 /* ProximityViewController.m */,
+				212CEDA818384DDD00A37755 /* BrightnessViewController.h */,
+				212CEDA918384DDD00A37755 /* BrightnessViewController.m */,
+				212CEDAB1838B2B200A37755 /* ShakeViewController.h */,
+				212CEDAC1838B2B200A37755 /* ShakeViewController.m */,
+				21A8453118407916000EAE80 /* LocationViewController.h */,
+				21A8453218407916000EAE80 /* LocationViewController.m */,
+				21A84526183F075D000EAE80 /* HeadingViewController.h */,
+				21A84527183F075D000EAE80 /* HeadingViewController.m */,
+				21A8452B183F5DC0000EAE80 /* AltitudeViewController.h */,
+				21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */,
+				21A845341840BC66000EAE80 /* AudioViewController.h */,
+				21A845351840BC66000EAE80 /* AudioViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +293,7 @@
 			files = (
 				212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */,
 				21A84528183F075D000EAE80 /* HeadingViewController.m in Sources */,
+				21A845361840BC66000EAE80 /* AudioViewController.m in Sources */,
 				212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */,
 				21A8453318407916000EAE80 /* LocationViewController.m in Sources */,
 				212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */,
