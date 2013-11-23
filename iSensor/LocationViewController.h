@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface LocationViewController : UIViewController
+@interface LocationViewController : UIViewController <CLLocationManagerDelegate>
+{
+    CLLocationManager *_locationManager;
+}
+
+@property (weak, nonatomic) IBOutlet UITextField *latTextField;
+@property (weak, nonatomic) IBOutlet UITextField *lonTextField;
 
 @end
