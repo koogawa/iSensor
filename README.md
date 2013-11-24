@@ -9,3 +9,4 @@ Sense a lot of things.
 4. Location
 5. Heading
 6. Altitude
+7. Audio
