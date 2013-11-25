@@ -3,7 +3,7 @@ iSensor
 
 Sense a lot of things.
 
-# Proximity Monitoring
+ Proximity Monitoring
 # Screen Brightness
 # Shake Gesture
 # Location
