@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
 @interface MotionActivityViewController : UIViewController
+{
+    CMStepCounter           *_stepCounter;
+    CMMotionActivityManager *_activityManager;
+}
 
 @end
