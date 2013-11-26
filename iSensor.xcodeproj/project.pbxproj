@@ -30,6 +30,7 @@
 		21A845361840BC66000EAE80 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A845351840BC66000EAE80 /* AudioViewController.m */; };
 		21A8453A1843A204000EAE80 /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A845391843A204000EAE80 /* AccelerometerViewController.m */; };
 		21A8453C1843AEF9000EAE80 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A8453B1843AEF9000EAE80 /* CoreMotion.framework */; };
+		21A8453F1844DE88000EAE80 /* MotionActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8453E1844DE88000EAE80 /* MotionActivityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		21A845381843A204000EAE80 /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
 		21A845391843A204000EAE80 /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
 		21A8453B1843AEF9000EAE80 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		21A8453D1844DE88000EAE80 /* MotionActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionActivityViewController.h; sourceTree = "<group>"; };
+		21A8453E1844DE88000EAE80 /* MotionActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionActivityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +202,8 @@
 				21A845351840BC66000EAE80 /* AudioViewController.m */,
 				21A845381843A204000EAE80 /* AccelerometerViewController.h */,
 				21A845391843A204000EAE80 /* AccelerometerViewController.m */,
+				21A8453D1844DE88000EAE80 /* MotionActivityViewController.h */,
+				21A8453E1844DE88000EAE80 /* MotionActivityViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			files = (
 				212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */,
 				21A84528183F075D000EAE80 /* HeadingViewController.m in Sources */,
+				21A8453F1844DE88000EAE80 /* MotionActivityViewController.m in Sources */,
 				21A845361840BC66000EAE80 /* AudioViewController.m in Sources */,
 				212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */,
 				21A8453318407916000EAE80 /* LocationViewController.m in Sources */,

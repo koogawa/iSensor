@@ -299,6 +299,25 @@
             </objects>
             <point key="canvasLocation" x="1357" y="-79"/>
         </scene>
+        <!--Motion Activity View Controller - Motion Activity-->
+        <scene sceneID="g51-Pj-Hn0">
+            <objects>
+                <viewController id="uQy-JQ-c5K" customClass="MotionActivityViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F8Z-bl-aMz"/>
+                        <viewControllerLayoutGuide type="bottom" id="710-Hj-1Qu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XAe-bn-VnJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Motion Activity" id="wkK-eM-UFL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oc5-aq-N6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1725" y="-61"/>
+        </scene>
         <!--Accelerometer View Controller - Accelerometer-->
         <scene sceneID="Cz1-9r-zSw">
             <objects>
@@ -512,6 +531,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="tDe-sX-BbQ" kind="push" id="kOI-6h-Bwp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="7le-n9-OwZ" style="IBUITableViewCellStyleDefault" id="YPT-jH-sjE">
+                                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YPT-jH-sjE" id="kWE-ee-aUP">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Motion Activity" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7le-n9-OwZ">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uQy-JQ-c5K" kind="push" id="xoV-5K-8KB"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
