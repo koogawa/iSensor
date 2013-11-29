@@ -37,7 +37,10 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
+
+    // 取得を停止
     [_stepCounter stopStepCountingUpdates];
+    [_activityManager stopActivityUpdates];
 }
 
 - (void)didReceiveMemoryWarning
