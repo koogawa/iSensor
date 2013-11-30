@@ -23,6 +23,7 @@
 		212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA61837C8BC00A37755 /* ProximityViewController.m */; };
 		212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA918384DDD00A37755 /* BrightnessViewController.m */; };
 		212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDAC1838B2B200A37755 /* ShakeViewController.m */; };
+		215A92931849057700E1C0E9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215A92921849057700E1C0E9 /* CoreImage.framework */; };
 		21A84528183F075D000EAE80 /* HeadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A84527183F075D000EAE80 /* HeadingViewController.m */; };
 		21A8452A183F1906000EAE80 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A84529183F1906000EAE80 /* CoreLocation.framework */; };
 		21A8452D183F5DC0000EAE80 /* AltitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8452C183F5DC0000EAE80 /* AltitudeViewController.m */; };
@@ -31,6 +32,7 @@
 		21A8453A1843A204000EAE80 /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A845391843A204000EAE80 /* AccelerometerViewController.m */; };
 		21A8453C1843AEF9000EAE80 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A8453B1843AEF9000EAE80 /* CoreMotion.framework */; };
 		21A8453F1844DE88000EAE80 /* MotionActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8453E1844DE88000EAE80 /* MotionActivityViewController.m */; };
+		21DCAFC61848F7BB00EF9882 /* FaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DCAFC51848F7BB00EF9882 /* FaceDetectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		212CEDA918384DDD00A37755 /* BrightnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessViewController.m; sourceTree = "<group>"; };
 		212CEDAB1838B2B200A37755 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
 		212CEDAC1838B2B200A37755 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
+		215A92921849057700E1C0E9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		21A84526183F075D000EAE80 /* HeadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadingViewController.h; sourceTree = "<group>"; };
 		21A84527183F075D000EAE80 /* HeadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadingViewController.m; sourceTree = "<group>"; };
 		21A84529183F1906000EAE80 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -81,6 +84,8 @@
 		21A8453B1843AEF9000EAE80 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		21A8453D1844DE88000EAE80 /* MotionActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionActivityViewController.h; sourceTree = "<group>"; };
 		21A8453E1844DE88000EAE80 /* MotionActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionActivityViewController.m; sourceTree = "<group>"; };
+		21DCAFC41848F7BB00EF9882 /* FaceDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectionViewController.h; sourceTree = "<group>"; };
+		21DCAFC51848F7BB00EF9882 /* FaceDetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215A92931849057700E1C0E9 /* CoreImage.framework in Frameworks */,
 				21A8453C1843AEF9000EAE80 /* CoreMotion.framework in Frameworks */,
 				21A8452A183F1906000EAE80 /* CoreLocation.framework in Frameworks */,
 				212CED7318377FB700A37755 /* CoreGraphics.framework in Frameworks */,
@@ -131,6 +137,7 @@
 		212CED6F18377FB700A37755 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				215A92921849057700E1C0E9 /* CoreImage.framework */,
 				21A84529183F1906000EAE80 /* CoreLocation.framework */,
 				21A8453B1843AEF9000EAE80 /* CoreMotion.framework */,
 				212CED7018377FB700A37755 /* Foundation.framework */,
@@ -204,6 +211,8 @@
 				21A845391843A204000EAE80 /* AccelerometerViewController.m */,
 				21A8453D1844DE88000EAE80 /* MotionActivityViewController.h */,
 				21A8453E1844DE88000EAE80 /* MotionActivityViewController.m */,
+				21DCAFC41848F7BB00EF9882 /* FaceDetectionViewController.h */,
+				21DCAFC51848F7BB00EF9882 /* FaceDetectionViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -306,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */,
+				21DCAFC61848F7BB00EF9882 /* FaceDetectionViewController.m in Sources */,
 				21A84528183F075D000EAE80 /* HeadingViewController.m in Sources */,
 				21A8453F1844DE88000EAE80 /* MotionActivityViewController.m in Sources */,
 				21A845361840BC66000EAE80 /* AudioViewController.m in Sources */,
