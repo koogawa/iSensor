@@ -28,8 +28,11 @@
     [super viewDidLoad];
 
     // インスタンス生成
-    NSDictionary *options = [NSDictionary dictionaryWithObject:CIDetectorAccuracyHigh forKey:CIDetectorAccuracy];
-    CIDetector *detector = [CIDetector detectorOfType:CIDetectorTypeFace context:nil options:options];
+    NSDictionary *options = [NSDictionary dictionaryWithObject:CIDetectorAccuracyHigh
+                                                        forKey:CIDetectorAccuracy];
+    CIDetector *detector = [CIDetector detectorOfType:CIDetectorTypeFace
+                                              context:nil
+                                              options:options];
 
     // 画像をWebから取得
     NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://www.koogawa.com/images/jobs.jpg"]];
@@ -53,7 +56,6 @@
     {
         // 座標変換
         const CGRect faceRect = CGRectApplyAffineTransform(faceFeature.bounds, transform);
-        NSLog(@"faceFeature %@", NSStringFromCGRect(faceRect));
 
         // 顔検出された範囲に赤い枠線を付ける
         UIView *faceView = [[UIView alloc] initWithFrame:faceRect];
