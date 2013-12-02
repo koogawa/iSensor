@@ -12,3 +12,4 @@ Sense a lot of things.
 7. Audio
 8. Accelerometer
 9. Motion Activity
+10. Face Detection
