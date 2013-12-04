@@ -69,7 +69,7 @@
     [_stepCounter startStepCountingUpdatesToQueue:[NSOperationQueue mainQueue]
                                          updateOn:1
                                       withHandler:^(NSInteger numberOfSteps, NSDate *timestamp, NSError *error) {
-                                          weakSelf.stepLabel.text = [NSString stringWithFormat:@"Step: %ld", numberOfSteps];
+                                          weakSelf.stepLabel.text = [NSString stringWithFormat:@"Step: %d", numberOfSteps];
                                       }];
 }
 
@@ -92,7 +92,7 @@
     _activityManager = [[CMMotionActivityManager alloc] init];
     [_activityManager startActivityUpdatesToQueue:[NSOperationQueue mainQueue]
                                       withHandler:^(CMMotionActivity *activity) {
-                                          weakSelf.confidenceLabel.text = [NSString stringWithFormat:@"confidence: %ld", activity.confidence];
+                                          weakSelf.confidenceLabel.text = [NSString stringWithFormat:@"confidence: %d", activity.confidence];
                                           weakSelf.stationaryLabel.text = [NSString stringWithFormat:@"stationary: %d", activity.stationary];
                                           weakSelf.walkingLabel.text = [NSString stringWithFormat:@"walking: %d", activity.walking];
                                           weakSelf.runningLabel.text = [NSString stringWithFormat:@"running: %d", activity.running];

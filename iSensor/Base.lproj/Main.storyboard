@@ -53,6 +53,58 @@
             </objects>
             <point key="canvasLocation" x="1821" y="549"/>
         </scene>
+        <!--Battery View Controller-->
+        <scene sceneID="xnF-fD-Qmh">
+            <objects>
+                <viewController id="W8y-7Z-AOB" customClass="BatteryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a9t-ma-Szz"/>
+                        <viewControllerLayoutGuide type="bottom" id="zU2-JG-WRc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Tl-T3-Wv5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Battery Level:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yua-oQ-BGg">
+                                <rect key="frame" x="51" y="116" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odg-mC-PHl">
+                                <rect key="frame" x="171" y="116" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Battery State:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqf-3k-rDA">
+                                <rect key="frame" x="51" y="154" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elZ-RO-0rs">
+                                <rect key="frame" x="171" y="154" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Pi-x6-2wq"/>
+                    <connections>
+                        <outlet property="batteryLevelLabel" destination="odg-mC-PHl" id="zSS-ws-yv3"/>
+                        <outlet property="batteryStateLabel" destination="elZ-RO-0rs" id="Ttt-ep-BPj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NTS-GN-bW7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2275" y="924"/>
+        </scene>
         <!--Altitude View Controller - Altitude-->
         <scene sceneID="luh-ia-UaR">
             <objects>
@@ -114,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1357" y="-763"/>
+            <point key="canvasLocation" x="1357" y="-1103"/>
         </scene>
         <!--Audio View Controller - Audio-->
         <scene sceneID="IsD-el-iSF">
@@ -171,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d5h-1U-OA4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2275" y="-1119"/>
+            <point key="canvasLocation" x="1357" y="924"/>
         </scene>
         <!--Heading View Controller - Heading-->
         <scene sceneID="8F2-kJ-dDJ">
@@ -239,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iyg-EC-5Ph" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1357" y="549"/>
+            <point key="canvasLocation" x="1357" y="239"/>
         </scene>
         <!--Face Detection View Controller - Face Detection-->
         <scene sceneID="Alm-Jo-yQl">
@@ -267,7 +319,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9t-L4-UBC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2275" y="924"/>
+            <point key="canvasLocation" x="2275" y="239"/>
         </scene>
         <!--Brightness View Controller - Screen Brightness-->
         <scene sceneID="Fgj-br-2af">
@@ -325,7 +377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JTv-tv-qOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1357" y="-112"/>
+            <point key="canvasLocation" x="1357" y="-433"/>
         </scene>
         <!--Motion Activity View Controller - Motion Activity-->
         <scene sceneID="g51-Pj-Hn0">
@@ -398,7 +450,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oc5-aq-N6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2275" y="239"/>
+            <point key="canvasLocation" x="2275" y="-433"/>
         </scene>
         <!--Accelerometer View Controller - Accelerometer-->
         <scene sceneID="Cz1-9r-zSw">
@@ -442,7 +494,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSt-Qf-YZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2275" y="-433"/>
+            <point key="canvasLocation" x="2275" y="-1103"/>
         </scene>
         <!--Table View Controller - iSensor-->
         <scene sceneID="weV-Sm-RCT">
@@ -653,6 +705,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="XOq-XE-SQj" kind="push" id="V78-wg-5co"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Jha-6X-Y4I" style="IBUITableViewCellStyleDefault" id="GSu-fm-h2F">
+                                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GSu-fm-h2F" id="Ph4-ll-eoJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Battery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jha-6X-Y4I">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="W8y-7Z-AOB" kind="push" id="VsS-cI-Th3"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
