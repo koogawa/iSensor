@@ -23,6 +23,7 @@
 		212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA61837C8BC00A37755 /* ProximityViewController.m */; };
 		212CEDAA18384DDD00A37755 /* BrightnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDA918384DDD00A37755 /* BrightnessViewController.m */; };
 		212CEDAD1838B2B200A37755 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212CEDAC1838B2B200A37755 /* ShakeViewController.m */; };
+		2148BA641A58D45E00972930 /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2148BA631A58D45E00972930 /* SpeedViewController.m */; };
 		215A92931849057700E1C0E9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215A92921849057700E1C0E9 /* CoreImage.framework */; };
 		21705E3A184F7A4400E06BF1 /* BatteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21705E39184F7A4400E06BF1 /* BatteryViewController.m */; };
 		21A84528183F075D000EAE80 /* HeadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A84527183F075D000EAE80 /* HeadingViewController.m */; };
@@ -70,6 +71,8 @@
 		212CEDA918384DDD00A37755 /* BrightnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessViewController.m; sourceTree = "<group>"; };
 		212CEDAB1838B2B200A37755 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
 		212CEDAC1838B2B200A37755 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
+		2148BA621A58D45E00972930 /* SpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedViewController.h; sourceTree = "<group>"; };
+		2148BA631A58D45E00972930 /* SpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedViewController.m; sourceTree = "<group>"; };
 		215A92921849057700E1C0E9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		21705E38184F7A4400E06BF1 /* BatteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryViewController.h; sourceTree = "<group>"; };
 		21705E39184F7A4400E06BF1 /* BatteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryViewController.m; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 				21DCAFC51848F7BB00EF9882 /* FaceDetectionViewController.m */,
 				21705E38184F7A4400E06BF1 /* BatteryViewController.h */,
 				21705E39184F7A4400E06BF1 /* BatteryViewController.m */,
+				2148BA621A58D45E00972930 /* SpeedViewController.h */,
+				2148BA631A58D45E00972930 /* SpeedViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 				21DCAFC61848F7BB00EF9882 /* FaceDetectionViewController.m in Sources */,
 				21A84528183F075D000EAE80 /* HeadingViewController.m in Sources */,
 				21A8453F1844DE88000EAE80 /* MotionActivityViewController.m in Sources */,
+				2148BA641A58D45E00972930 /* SpeedViewController.m in Sources */,
 				21705E3A184F7A4400E06BF1 /* BatteryViewController.m in Sources */,
 				21A845361840BC66000EAE80 /* AudioViewController.m in Sources */,
 				212CEDA71837C8BC00A37755 /* ProximityViewController.m in Sources */,
