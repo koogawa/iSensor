@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uB9-J1-8UO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uB9-J1-8UO">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Location View Controller - Location-->
+        <!--Location-->
         <scene sceneID="Ktn-fS-pnX">
             <objects>
                 <viewController id="vJz-1N-Mce" customClass="LocationViewController" sceneMemberID="viewController">
@@ -97,7 +98,7 @@
             </objects>
             <point key="canvasLocation" x="2275" y="924"/>
         </scene>
-        <!--Altitude View Controller - Altitude-->
+        <!--Altitude-->
         <scene sceneID="luh-ia-UaR">
             <objects>
                 <viewController id="ghV-n6-ihP" customClass="AltitudeViewController" sceneMemberID="viewController">
@@ -131,7 +132,7 @@
             </objects>
             <point key="canvasLocation" x="1821" y="-112"/>
         </scene>
-        <!--Proximity View Controller - Proximity Monitoring-->
+        <!--Proximity Monitoring-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ProximityViewController" sceneMemberID="viewController">
@@ -157,7 +158,7 @@
             </objects>
             <point key="canvasLocation" x="1357" y="-1103"/>
         </scene>
-        <!--Audio View Controller - Audio-->
+        <!--Audio-->
         <scene sceneID="IsD-el-iSF">
             <objects>
                 <viewController id="qoI-dE-mBy" customClass="AudioViewController" sceneMemberID="viewController">
@@ -221,7 +222,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Qv-TD-83s">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Qv-TD-83s">
                                 <rect key="frame" x="112" y="135" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -232,15 +233,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hdg-n3-MCN">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hdg-n3-MCN">
                                 <rect key="frame" x="112" y="226" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speed (km/h)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXv-Ix-PlA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speed (km/h)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXv-Ix-PlA">
                                 <rect key="frame" x="109" y="197" width="103" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -266,7 +265,7 @@
             </objects>
             <point key="canvasLocation" x="1821" y="1211"/>
         </scene>
-        <!--Heading View Controller - Heading-->
+        <!--Heading-->
         <scene sceneID="8F2-kJ-dDJ">
             <objects>
                 <viewController id="PEm-Vb-HXr" customClass="HeadingViewController" sceneMemberID="viewController">
@@ -301,7 +300,7 @@
             </objects>
             <point key="canvasLocation" x="1821" y="-763"/>
         </scene>
-        <!--Shake View Controller - Shake Gesture-->
+        <!--Shake Gesture-->
         <scene sceneID="UJi-9O-yWz">
             <objects>
                 <viewController id="fYK-56-cNE" customClass="ShakeViewController" sceneMemberID="viewController">
@@ -331,7 +330,7 @@
             </objects>
             <point key="canvasLocation" x="1357" y="239"/>
         </scene>
-        <!--Face Detection View Controller - Face Detection-->
+        <!--Face Detection-->
         <scene sceneID="Alm-Jo-yQl">
             <objects>
                 <viewController id="XOq-XE-SQj" customClass="FaceDetectionViewController" sceneMemberID="viewController">
@@ -358,7 +357,7 @@
             </objects>
             <point key="canvasLocation" x="2275" y="239"/>
         </scene>
-        <!--Brightness View Controller - Screen Brightness-->
+        <!--Screen Brightness-->
         <scene sceneID="Fgj-br-2af">
             <objects>
                 <viewController id="teS-0r-kRr" customClass="BrightnessViewController" sceneMemberID="viewController">
@@ -412,7 +411,7 @@
             </objects>
             <point key="canvasLocation" x="1357" y="-433"/>
         </scene>
-        <!--Motion Activity View Controller - Motion Activity-->
+        <!--Motion Activity-->
         <scene sceneID="g51-Pj-Hn0">
             <objects>
                 <viewController id="uQy-JQ-c5K" customClass="MotionActivityViewController" sceneMemberID="viewController">
@@ -478,7 +477,7 @@
             </objects>
             <point key="canvasLocation" x="2275" y="-433"/>
         </scene>
-        <!--Accelerometer View Controller - Accelerometer-->
+        <!--Accelerometer-->
         <scene sceneID="Cz1-9r-zSw">
             <objects>
                 <viewController id="tDe-sX-BbQ" customClass="AccelerometerViewController" sceneMemberID="viewController">
@@ -519,7 +518,7 @@
             </objects>
             <point key="canvasLocation" x="2275" y="-1103"/>
         </scene>
-        <!--Table View Controller - iSensor-->
+        <!--iSensor-->
         <scene sceneID="weV-Sm-RCT">
             <objects>
                 <tableViewController id="RgQ-0M-C3J" sceneMemberID="viewController">
