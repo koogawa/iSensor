@@ -50,7 +50,7 @@
             </objects>
             <point key="canvasLocation" x="1821" y="549"/>
         </scene>
-        <!--Battery View Controller-->
+        <!--Battery-->
         <scene sceneID="xnF-fD-Qmh">
             <objects>
                 <viewController id="W8y-7Z-AOB" customClass="BatteryViewController" sceneMemberID="viewController">
@@ -88,7 +88,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="1Pi-x6-2wq"/>
+                    <navigationItem key="navigationItem" title="Battery" id="1Pi-x6-2wq"/>
                     <connections>
                         <outlet property="batteryLevelLabel" destination="odg-mC-PHl" id="zSS-ws-yv3"/>
                         <outlet property="batteryStateLabel" destination="elZ-RO-0rs" id="Ttt-ep-BPj"/>
@@ -210,7 +210,7 @@
             </objects>
             <point key="canvasLocation" x="1357" y="924"/>
         </scene>
-        <!--Speed View Controller-->
+        <!--Speed-->
         <scene sceneID="xax-ld-54p">
             <objects>
                 <viewController id="7Vu-X6-PzO" customClass="SpeedViewController" sceneMemberID="viewController">
@@ -255,7 +255,7 @@
                             <constraint firstItem="2Qv-TD-83s" firstAttribute="top" secondItem="cnA-rf-FT1" secondAttribute="bottom" constant="8" symbolic="YES" id="gcH-MB-ajX"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="aye-TN-bxh"/>
+                    <navigationItem key="navigationItem" title="Speed" id="aye-TN-bxh"/>
                     <connections>
                         <outlet property="kphTextField" destination="Hdg-n3-MCN" id="xMz-oi-isa"/>
                         <outlet property="speedTextField" destination="2Qv-TD-83s" id="bOy-E3-aIO"/>
