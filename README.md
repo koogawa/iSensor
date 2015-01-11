@@ -13,3 +13,6 @@ Sense a lot of things.
 8. Accelerometer
 9. Motion Activity
 10. Face Detection
+11. Battery
+12. Speed
+
