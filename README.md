@@ -1,7 +1,7 @@
 iSensor
 =======
 
-Sense a lot of things.
+Sense a lot of things. Swift version [here](https://github.com/koogawa/iSensorSwift/)
 
 1. Proximity Monitoring
 2. Screen Brightness
